@@ -32,6 +32,7 @@ public class ProductDaoImpl implements ProductDao {
 		return null;
 	}
 
+	//Methode ajouter un produit
 	@Override
 	public Product save(Product product) {
 		products.add(product);
