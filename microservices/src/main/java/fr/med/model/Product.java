@@ -42,6 +42,12 @@ public class Product {
 	@Override
 	public String toString() {
 		return "Product {id=" + id + ", nom=" + nom + ", prix=" + prix + "}";
+	}
+
+	public Product() {
+		super();
 	}	
+	
+	
 		
 }
