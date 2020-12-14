@@ -14,7 +14,7 @@ import fr.med.model.Product;
 
 @RestController
 public class ProductController {
-	
+	//Modifications
 	@Autowired
 	private ProductDao productDao;
 	
