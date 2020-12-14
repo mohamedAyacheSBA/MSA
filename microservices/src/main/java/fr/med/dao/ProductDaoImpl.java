@@ -9,7 +9,7 @@ import fr.med.model.Product;
 
 @Repository
 public class ProductDaoImpl implements ProductDao {
-
+//list de produit
 	public static List<Product> products = new ArrayList<>();
 	
 	static{
